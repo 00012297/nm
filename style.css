@@ -1,0 +1,139 @@
+.container {
+    width: 1000px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    font-family: 'Montserrat',
+        sans-serif;
+    background-image: url(./img/header-bg.png);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+
+.itclublogo {
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid white;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 5%),
+        0 1px 5px rgb(0 0 0 / 7%),
+        0 10px 20px rgb(0 0 0 / 7%);
+}
+
+.header-ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-nav {
+    padding-right: 35px;
+    color: white;
+}
+
+button {
+    padding: 15px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+}
+
+.callbutton {
+    font-family: 'Montserrat',
+        sans-serif;
+    color: white;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.section-h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    width: 700px;
+    color: white;
+}
+
+.section2-p {
+    border: 3px solid blue;
+    border-radius: 15px;
+    padding: 20px;
+    color: blue;
+}
+
+footer {
+    background-color: royalblue;
+    padding: 10px;
+
+}
+
+.footer-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-number {
+    font-weight: 700;
+    font-size: 3rem;
+    color: white;
+}
+
+.footer-p {
+    color: white;
+}
+
+.aboutus-main {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.aboutus-main-div {
+    width: 450px;
+    border: 5px solid white;
+    border-radius: 20px;
+    margin: 20px;
+    background: #0052D4;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6FB1FC, #4364F7, #0052D4);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6FB1FC, #4364F7, #0052D4);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+.aboutus-h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+
+.aboutus-p {
+    color: white;
+    padding: 10px;
+}
