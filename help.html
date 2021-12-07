@@ -30,6 +30,25 @@
         <div> <button><a href="tel:+998950115515" class="callbutton">Click to Call</a></button></div>
 
     </header>
+    <main>
+        <div class="container">
+            <h1 class="help-h1">IT Club Support</h1>
+            <p class="cource-text">Please fill in this form to get call back.</p>
+        </div>
+        <hr>
+        <div class="container">
+            <form id="myform">
+                <div>
+                    <label class="cource-text" for="myform_phone">Phone:</label>
+                    <input class="helpinput" type="text" id="myform_phone" name="phone" />
+                    <div id="phone_error" class="error hidden">Please enter a valid phone number</div>
+                </div>
+                <div>
+                    <button type="submit" class="help-submitbtn">Submit</button>
+                </div>
+            </form>
+        </div>
+    </main>
     <footer>
         <div class="container footer-div">
             <div>
@@ -48,6 +67,7 @@
             <p class="footer-p">© 2019, IT Club</p>
         </div>
     </footer>
+    <script defer src="./help.js"></script>
 </body>
 
 </html>
