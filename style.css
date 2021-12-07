@@ -9,7 +9,6 @@ body {
         sans-serif;
     background-image: url(./img/header-bg.png);
     background-repeat: no-repeat;
-    /* background-size: 100%; */
     margin: 0;
     padding: 0;
     display: flex;
@@ -19,7 +18,7 @@ body {
 
 header {
     min-height: 150px;
-
+    width: auto;
 }
 
 footer {
@@ -57,6 +56,7 @@ header {
 
 a {
     text-decoration: none;
+    font-size: 1rem;
 }
 
 .header-nav {
@@ -94,8 +94,13 @@ section {
 .section-h1 {
     font-weight: 700;
     font-size: 3rem;
-    width: 700px;
-    color: white;
+    width: 50vw;
+    color: rgb(10, 5, 82);
+}
+
+.imgboy {
+    width: 30vw;
+    height: 40vh;
 }
 
 .section2-p {
@@ -106,10 +111,11 @@ section {
 }
 
 footer {
-    background: linear-gradient(to right, #0072ff, #00c6ff);
+
     padding: 10px;
     width: 100%;
     margin-top: auto;
+
 }
 
 .footer-div {
@@ -121,11 +127,11 @@ footer {
 .footer-number {
     font-weight: 700;
     font-size: 3rem;
-    color: white;
+    color: black;
 }
 
 .footer-p {
-    color: white;
+    color: black;
 }
 
 .aboutus-main {
@@ -137,8 +143,8 @@ footer {
 }
 
 .aboutus-main-div {
-    width: 450px;
-    border: 5px solid white;
+    width: 45%;
+    border: 5px solid rgb(218, 218, 218);
     border-radius: 20px;
     margin: 20px;
     background: linear-gradient(to right, #6FB1FC, #4364F7, #0052D4);
@@ -181,8 +187,8 @@ footer {
 
 .cources-img {
     border: 10px solid rgb(4, 175, 255);
-    width: 600px;
-    height: 400px;
+    width: 80vw;
+    height: 50vw;
 }
 
 .prev,
@@ -294,17 +300,18 @@ footer {
     font-weight: 500;
 }
 
-.cource-button {
-    padding: 15px;
-    border: 3px solid white;
-    border-radius: 40%;
-    background: linear-gradient(to right, #6FB1FC, #4364F7, #0052D4);
-}
 
 .cource-a {
     color: rgb(16, 241, 16);
     font-size: 1rem;
     font-weight: 500;
+    padding: 15px;
+    border: 3px solid white;
+    border-radius: 40%;
+    background: linear-gradient(to right, #6FB1FC, #4364F7, #0052D4);
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
 }
 
 .help-submitbtn {
@@ -349,4 +356,81 @@ footer {
     padding: 15px;
     margin-top: 8px;
     margin-bottom: 10px;
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 780px;
+    }
+
+    .section-h1 {
+        font-size: 2.1rem;
+    }
+
+    .aboutus-main-div {
+        width: 700px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 560px;
+    }
+
+    .section-h1 {
+        font-size: 1.7rem;
+    }
+
+    .aboutus-h1 {
+        font-size: 1.7rem;
+    }
+
+    .aboutus-main-div {
+        width: 500px;
+        margin: 5px;
+    }
+
+    .aboutus-p {
+        font-size: 0.8rem;
+    }
+
+    a {
+        font-size: 0.8rem;
+    }
+
+    .footer-number {
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width: 570px) {
+    .container {
+        max-width: 450px;
+    }
+
+    .section-h1 {
+        font-size: 1.3rem;
+    }
+
+    a {
+        font-size: 0.5rem;
+    }
+
+    .section2-p {
+        font-size: 10px;
+    }
+
+    .footer-number {
+        font-size: 1.3rem;
+    }
+
+    .aboutus-main-div {
+        width: 300px;
+        margin: 2px;
+    }
+
+    .aboutus-p {
+        font-size: 0.5rem;
+    }
 }
